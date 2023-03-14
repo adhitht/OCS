@@ -1,0 +1,19 @@
+{
+  "name": "ocs-backend",
+  "version": "1.0.0",
+  "description": "Backend For running OCS CV Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Test\"",
+    "dev": "nodemon app.js"
+  },
+  "author": "Adhith T",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.21"
+  }
+}

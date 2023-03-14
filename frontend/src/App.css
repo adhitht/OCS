@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand');
+
+.body{
+    display: grid;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3E54AC;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.ocs-header {
+    display: flex;
+    padding: 7px;
+
+}
+
+.ocs-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ocs-title1 {
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+    height: 47px;
+}
+
+.ocs-title2 {
+    font-family: 'Noto Sans';
+    color: white;
+    font-size: 20px;
+}
+
+.ocs-options {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Khand', sans-serif;
+    margin-right: 20px;
+}
+
+.ocs-options a {
+    color: white;
+    padding-right: 10px;
+}
+
+#login a {
+    color: white;
+    padding: 5px;
+}
+
+#register a {
+    color: white;
+    padding: 5px;
+}
+
+.form-box {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 250px;
+    border-radius: 15px;
+    /* padding-bottom: 30px; */
+    width: 70%;
+    max-width: 800px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.form-heading {
+    display: flex;
+    background-color: #3E54AC;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 60px;
+    align-items: center;
+}
+
+.form-heading p {
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Khand';
+}
+
+.alert {
+    text-align: center;
+    font-family: 'Khand';
+    font-size: 18px;
+    color: rgb(255, 38, 0);
+    letter-spacing: 1px;
+}
+
+.input-box {
+    /* margin: 25px; */
+    margin: 15px;
+    width: 100%;
+    background-color: #ECF2FF;
+    border: 0;
+    border-radius: 15px;
+    height: 50px;
+    padding-left: 15px;
+    font-family: 'Khand';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.disabled {
+    background-color: rgb(197, 204, 222);
+}
+
+
+.input-box:focus {
+    outline: none;
+    background-color: #e0eaff;
+    font-family: 'Khand';
+}
+
+.input {
+    font-family: 'Khand';
+}
+
+.form-inputs {
+    margin-top: 50px;
+    width: 60%;
+}
+
+.form-submit {
+    background-color: #655DBB;
+    height: 60px;
+    font-family: 'Khand';
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.delete {
+    background-color: rgba(255, 0, 0, 0.75);
+}
+
+.submit-buttons {
+    display: flex;
+}
+
+.cv-main-cont {
+    display: grid;
+    padding-top: 110px;
+}
+
+.cv-main-cont p {
+    padding-left: 30px;
+    font-family: 'Khand';
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.cv-cont {
+    font-family: 'Khand';
+    background-color: #ECF2FF;
+    border-radius: 15px;
+    border: 1px solid black;
+    max-width: 800px;
+    justify-self: center;
+    width: 80%;
+    padding: 25px;
+    margin: 15px;
+}
+
+.cv-head {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.button-cont {
+    display: flex;
+    margin-top: 10px;
+}
+
+.mail-box {
+    background-color: rgba(191, 172, 226, 0.5);
+    border-radius: 10px;
+    width: 75px;
+    text-align: center;
+    height: 25px;
+    font-size: 18px;
+    padding-top: 4px;
+    margin-right: 15px;
+}
+
+.back {
+    position: relative;
+    top: 90px;
+    left: 15px;
+    color: #3E54AC;
+    font-size: 22px;
+    width: fit-content;
+}
+
+.back:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
