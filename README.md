@@ -22,9 +22,9 @@ npm install
 npm run dev
 ```
 
-### Backend
+### Frontend
 ```bash
-cd backend
+cd frontend
 npm install
 npm run start
 ```
@@ -33,7 +33,7 @@ npm run start
 ## Demo
 
 
-Follow [this link ](localhost:2000/users) to see all users in database after starting the backend.
+Follow [this link ](http://localhost:2000/users) to see all users in database after starting the backend.
 
 Username and password is also returned in the response. 
 
